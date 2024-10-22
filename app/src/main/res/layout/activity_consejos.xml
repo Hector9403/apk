@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".consejos">
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="678dp"
+            android:layout_marginTop="50sp"
+            android:justificationMode="inter_word"
+            android:text="Para cuidar de tu mascota, puedes tener en cuenta los siguientes consejos:
+            Alimentación: Asegúrate de que tu mascota tenga una alimentación adecuada para su raza, tamaño, y edad.
+            Ejercicio: El ejercicio es importante para mantener a tu mascota saludable. Puedes sacarla a pasear o jugar con ella.
+            Higiene: Mantén limpio el comedero, bebedero, cama, y entorno de tu mascota. También es importante mantener la higiene de su pelo, orejas, y boca.
+            Vacunas y chequeos: Es importante que tu mascota tenga sus vacunas y chequeos al día.
+            Rutina: Es importante que tu mascota tenga una rutina y que la sigas.
+            Educación: Educa a tu mascota para que aprenda cuándo comer, salir de paseo, y dónde dormir o hacer sus necesidades.
+            Socialización: Permite que tu mascota juegue con otros perros y personas.
+            Cuidado dental: Cepilla los dientes de tu mascota a diario o al menos tres veces por semana.
+            Respeto: Dale el respeto que se merece y no hagas uso de la violencia para educarlo.
+            Esterilización: Si no deseas tener más mascotas, es recomendable esterilizar a tu perro o gato. "
+            android:textAlignment="center"
+            android:textColor="#F8F5F5"
+            android:textSize="20sp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

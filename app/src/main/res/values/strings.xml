@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">asmevetapk</string>
+    <string name="urgencias">Urgencias</string>
+    <string name="llamar_a_emergencias">Llamar a Emergencias</string>
+    <string name="informaci_n_adicional">Información adicional</string>
+    <string name="enviar_informaci_n">Enviar Información</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".HomePage"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:translationX="30pt"
+        android:visibility="visible"
+        app:srcCompat="@drawable/logoredondoasmevet" />
+
+
+    <TextView
+        android:id="@+id/azmevet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Clinica Veterinaria"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_agenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agenda una Cita"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_urgencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atención de Emergencia"
+            android:layout_below="@id/btn_agenda"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_mis_mascotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mis Mascotas"
+            android:layout_below="@id/btn_urgencias"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_consejos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consejos de Cuidado"
+            android:layout_below="@id/btn_mis_mascotas"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031660429867",
+    "project_id": "asmevetapk",
+    "storage_bucket": "asmevetapk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031660429867:android:2aeb403bcaede2df79406e",
+        "android_client_info": {
+          "package_name": "com.example.asmevetapk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7S3WFSDEWq_4QZ5HIZGF_0eD31HpDtCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
